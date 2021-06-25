@@ -1,0 +1,162 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+body{
+  background-color: black;
+}
+
+.Page1{
+  height: 100vh;
+  background-color: black;
+  margin-top: 0px;
+}
+
+.Titlemarkup h1{
+  text-align: center;
+  padding-top: 18%;
+
+  color: white;
+  font-size: 10em;
+}
+
+.Titlemarkup h3{
+  text-align: center;
+  margin-top: -1%;
+  margin-left: 32%;
+
+  color: white;
+  font-size: 2em;
+  font-weight: 200;
+}
+
+.Headermarkup h1{
+  position: fixed;
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  height: 100vh;
+  margin-left: 1%;
+  padding-right: 2%;
+  text-align: center;
+
+  color: white;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 900;
+
+  border-right: solid white;
+}
+
+#Page2{
+  height: 20vh;
+  margin-left: 10%;
+  padding-top: 2%;
+
+  background-color: white;
+}
+
+.Page3{
+  height: 200vh;
+
+  background-color: black;
+}
+
+.Navbar{
+  text-align: center;
+}
+
+.Navbar h2{
+  display: inline;
+  padding: 0px 30px;
+  font-size: 6em;
+}
+
+.Navbar a{
+  text-decoration: none;
+  color: black;
+}
+
+.Navbar a:hover{
+  text-decoration: line-through;
+  color: black;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky .Navbar{
+  margin-left: -10%;
+}
+
+
+
+
+
+.Footer{
+  height: 15vh;
+  background-color: white;
+  padding: 2%;
+}
+
+.Footer h2{
+  padding-left: 8%;
+  font-size: 3em;
+}
+
+.Footer h3{
+  color: black;
+}
+
+.FooterNav{
+  padding-left: 20%;
+}
+
+.FooterNav h2{
+  display: inline;
+}
+
+.FooterNav h3{
+  display: inline;
+  padding-left: 15%;
+}
+
+.Footerlegal{
+  text-align: right;
+  padding-left: 90%;
+}
+
+.FooterLegal h3{
+  text-align: right;
+  display: inline;
+}
+
+
+h1, h2, h3, h4{
+  font-family: 'Roboto', sans-serif;
+}
+
+h3{
+  color: orange;
+}
+
+/*
+    fonts:
+      font-family: 'Roboto', sans-serif;
+      font-family: 'Spartan', sans-serif;
+*/
+
+.DarkmatterQuarter{
+  height: 25vh;
+}
+
+.DarkmatterHalf{
+  height: 50vh;
+}
+
+.DarkmatterFull{
+  height: 100vh;
+}
